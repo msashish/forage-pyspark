@@ -1,0 +1,7 @@
+DF processing of excel file /Users/sheelava/msashishgit/forage/input/ANZ_synthesised_transaction_dataset.xlsx
+    Input data rows: before processing: 12043 and after processing: 1523
+    Processing time taken by function task_using_df is =  11.527394412000000 seconds
+
+RDD processing of excel file /Users/sheelava/msashishgit/forage/input/ANZ_synthesised_transaction_dataset.xlsx
+    Input data rows: before processing: 12043 and after processing: 1523
+    Processing time taken by function task_using_rdd is =  5.202697563000001 seconds
