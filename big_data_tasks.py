@@ -21,13 +21,13 @@ def get_arguments() -> argparse.Namespace:
 @timeme
 def task_using_df(spark_session):
     processed_df = spark_session.process_df()
-    write_df_to_csv(processed_df, "/Users/sheelava/msashishgit/forage/output/anz_synth_df.csv")
+    write_df_to_csv(processed_df, "synth_df.csv")
 
 
 @timeme
 def task_using_rdd(spark_session):
     processed_rdd = spark_session.process_rdd()
-    write_rdd_to_csv(processed_rdd, "/Users/sheelava/msashishgit/forage/output_rdd/anz_synth_rdd.csv")
+    write_rdd_to_csv(processed_rdd, "synth_rdd.csv")
 
 
 args = get_arguments()
