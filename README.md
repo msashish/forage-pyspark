@@ -18,4 +18,4 @@
 
 
 ## To run some tasks (spark-submit includes pyspark python module at runtime)
-    spark-submit --packages com.crealytics:spark-excel_2.12:0.13.4 big_data_tasks.py -f "/Users/sheelava/msashishgit/forage/input/ANZ_synthesised_transaction_dataset.xlsx" > output.log
+    spark-submit --packages com.crealytics:spark-excel_2.12:0.13.4 big_data_tasks.py -f "path to excel" > output.log
